@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GeminiMaster | Jual Prompt AI Premium</title>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- SweetAlert2 -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <!-- Tailwind Config -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            50: '#eff6ff',
+                            100: '#dbeafe',
+                            400: '#60a5fa',
+                            500: '#3b82f6',
+                            600: '#2563eb',
+                            700: '#1d4ed8',
+                            900: '#1e3a8a',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        /* Menyembunyikan scrollbar untuk slider */
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .no-scrollbar {
+            -ms-overflow-style: none;  /* IE and Edge */
+            scrollbar-width: none;  /* Firefox */
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans antialiased">
+
+    <!-- Navbar -->
+    <nav class="fixed w-full z-50 bg-white/80 backdrop-blur-md border-b border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center gap-2">
+                    <i class="fa-solid fa-robot text-brand-600 text-2xl"></i>
+                    <span class="font-bold text-xl tracking-tight text-slate-900">GeminiMaster</span>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#fitur" class="text-slate-600 hover:text-brand-600 transition">Fitur</a>
+                    <a href="#testimoni" class="text-slate-600 hover:text-brand-600 transition">Testimoni</a>
+                    <a href="#produk" class="text-slate-600 hover:text-brand-600 transition">Katalog</a>
+                </div>
+                <div>
+                    <a href="#produk" class="bg-brand-600 hover:bg-brand-700 text-white px-5 py-2 rounded-full font-medium transition shadow-lg shadow-brand-500/30">Beli Sekarang</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+<!-- Hero Section -->
+    <section class="pt-32 pb-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto text-center">
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brand-50 text-brand-600 text-sm font-semibold mb-6 border border-brand-100">
+            <span class="flex h-2 w-2 rounded-full bg-brand-600 animate-pulse"></span>
+            Hot Promo: Paket Gemini Pro & AI Custom Ready!
+        </div>
+        <h1 class="text-4xl md:text-6xl font-extrabold text-slate-900 mb-6 leading-tight">
+            Buka Potensi Tanpa Batas dengan <br class="hidden md:block" />
+            <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-600 to-purple-600">Gemini Pro & AI Premium</span>
+        </h1>
+        <p class="text-lg md:text-xl text-slate-600 mb-10 max-w-2xl mx-auto">
+            Tingkatkan produktivitas dan kreativitasmu. Dapatkan akses ke Gemini Pro 18 Bulan, 5TB Cloud, Video Generation Veo 3, hingga paket lengkap Chai AI & Web Game dengan harga super hemat.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+            <a href="#produk" class="bg-slate-900 hover:bg-slate-800 text-white px-8 py-4 rounded-xl font-bold transition flex items-center justify-center gap-2 text-lg">
+                <i class="fa-solid fa-cart-shopping"></i> Lihat Penawaran
+            </a>
+            <a href="#testimoni" class="bg-white hover:bg-slate-50 text-slate-900 border border-slate-200 px-8 py-4 rounded-xl font-bold transition flex items-center justify-center gap-2 text-lg shadow-sm">
+                <i class="fa-solid fa-star text-yellow-400"></i> Review Pengguna
+            </a>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section id="fitur" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-slate-900">Mengapa Memilih Prompt Kami?</h2>
+                <p class="text-slate-600 mt-4">Dirancang khusus untuk memaksimalkan potensi AI Gemini.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Feature 1 -->
+                <div class="p-6 rounded-2xl bg-slate-50 border border-slate-100 hover:shadow-lg transition">
+                    <div class="w-14 h-14 bg-blue-100 text-brand-600 rounded-xl flex items-center justify-center text-2xl mb-6">
+                        <i class="fa-solid fa-bullseye"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Akurasi Tinggi</h3>
+                    <p class="text-slate-600">Prompt kami menggunakan teknik rekayasa (prompt engineering) tingkat lanjut agar hasil jawaban tidak melenceng.</p>
+                </div>
+                <!-- Feature 2 -->
+                <div class="p-6 rounded-2xl bg-slate-50 border border-slate-100 hover:shadow-lg transition">
+                    <div class="w-14 h-14 bg-green-100 text-green-600 rounded-xl flex items-center justify-center text-2xl mb-6">
+                        <i class="fa-solid fa-bolt"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Siap Pakai</h3>
+                    <p class="text-slate-600">Cukup copy, paste, dan ganti variabel yang diperlukan. Tersedia panduan penggunaan di setiap bundle.</p>
+                </div>
+                <!-- Feature 3 -->
+                <div class="p-6 rounded-2xl bg-slate-50 border border-slate-100 hover:shadow-lg transition">
+                    <div class="w-14 h-14 bg-purple-100 text-purple-600 rounded-xl flex items-center justify-center text-2xl mb-6">
+                        <i class="fa-solid fa-code"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Beragam Kategori</h3>
+                    <p class="text-slate-600">Dari pembuatan kode PWA, optimasi Google Apps Script, hingga script copywriting untuk media sosial.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimoni Section (Carousel) -->
+    <section id="testimoni" class="py-20 bg-slate-50 overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-slate-900">Apa Kata Mereka?</h2>
+                <p class="text-slate-600 mt-4">Kisah sukses dari ribuan pengguna yang sudah menghemat waktu mereka.</p>
+            </div>
+            
+            <!-- Slider Container -->
+            <div class="relative">
+                <!-- Tombol Navigasi Kiri (Hidden di Mobile) -->
+                <button id="prevBtn" class="absolute left-0 top-1/2 -translate-y-1/2 -ml-5 bg-white border border-slate-200 text-brand-600 w-12 h-12 rounded-full flex items-center justify-center shadow-lg hover:bg-brand-50 hover:scale-110 transition-all z-10 hidden md:flex">
+                    <i class="fa-solid fa-chevron-left text-lg"></i>
+                </button>
+
+                <!-- Tombol Navigasi Kanan (Hidden di Mobile) -->
+                <button id="nextBtn" class="absolute right-0 top-1/2 -translate-y-1/2 -mr-5 bg-white border border-slate-200 text-brand-600 w-12 h-12 rounded-full flex items-center justify-center shadow-lg hover:bg-brand-50 hover:scale-110 transition-all z-10 hidden md:flex">
+                    <i class="fa-solid fa-chevron-right text-lg"></i>
+                </button>
+
+                <!-- Track Slider -->
+                <div id="sliderTrack" class="flex gap-6 overflow-x-auto snap-x snap-mandatory no-scrollbar py-6 scroll-smooth cursor-grab active:cursor-grabbing">
+                    
+                    <!-- Testimoni 1 -->
+                    <div class="snap-center shrink-0 w-[85vw] md:w-[400px] bg-white p-8 rounded-3xl border border-slate-200 shadow-sm hover:shadow-xl transition duration-300 select-none">
+                        <div class="flex gap-1 text-yellow-400 mb-4 text-sm">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="text-slate-700 mb-6 italic">"Paket Developer Pro benar-benar *game changer*. Saya pakai prompt-nya untuk generate API dari Google Apps Script ke PWA saya. Pekerjaan yang biasanya butuh berhari-hari sekarang selesai dalam hitungan jam!"</p>
+                        <div class="flex items-center gap-4 mt-auto">
+                            <img src="https://ui-avatars.com/api/?name=Budi+Santoso&background=3b82f6&color=fff" alt="Budi Santoso" class="w-12 h-12 rounded-full" draggable="false">
+                            <div>
+                                <h4 class="font-bold text-slate-900">Budi Santoso</h4>
+                                <p class="text-sm text-slate-500">Frontend Developer</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimoni 2 -->
+                    <div class="snap-center shrink-0 w-[85vw] md:w-[400px] bg-white p-8 rounded-3xl border border-slate-200 shadow-sm hover:shadow-xl transition duration-300 select-none">
+                        <div class="flex gap-1 text-yellow-400 mb-4 text-sm">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="text-slate-700 mb-6 italic">"Awalnya ragu beli Starter Pack, tapi ternyata prompt copywriting-nya sangat terstruktur. Nggak perlu lagi pusing mikirin *hook* atau CTA untuk konten sosmed klien. Langsung copy-paste, beres!"</p>
+                        <div class="flex items-center gap-4 mt-auto">
+                            <img src="https://ui-avatars.com/api/?name=Siska+Amelia&background=10b981&color=fff" alt="Siska Amelia" class="w-12 h-12 rounded-full" draggable="false">
+                            <div>
+                                <h4 class="font-bold text-slate-900">Siska Amelia</h4>
+                                <p class="text-sm text-slate-500">Social Media Manager</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimoni 3 -->
+                    <div class="snap-center shrink-0 w-[85vw] md:w-[400px] bg-white p-8 rounded-3xl border border-slate-200 shadow-sm hover:shadow-xl transition duration-300 select-none">
+                        <div class="flex gap-1 text-yellow-400 mb-4 text-sm">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="text-slate-700 mb-6 italic">"Saya ambil Ultimate Master untuk mengelola sistem presensi sekolah. Prompt untuk membuat logika absensi otomatis pakai Vanilla JS dan Tailwind sangat rapi dan jarang error. Investasi terbaik!"</p>
+                        <div class="flex items-center gap-4 mt-auto">
+                            <img src="https://ui-avatars.com/api/?name=Reza+Fahlevi&background=8b5cf6&color=fff" alt="Reza Fahlevi" class="w-12 h-12 rounded-full" draggable="false">
+                            <div>
+                                <h4 class="font-bold text-slate-900">Reza Fahlevi</h4>
+                                <p class="text-sm text-slate-500">IT Administrator</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimoni 4 -->
+                    <div class="snap-center shrink-0 w-[85vw] md:w-[400px] bg-white p-8 rounded-3xl border border-slate-200 shadow-sm hover:shadow-xl transition duration-300 select-none">
+                        <div class="flex gap-1 text-yellow-400 mb-4 text-sm">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="text-slate-700 mb-6 italic">"Prompt untuk pembuatan Landing Page responsifnya luar biasa. Tinggal kasih konteks produk, Gemini langsung ngeluarin struktur HTML dan Tailwind yang siap pakai. Sangat direkomendasikan untuk Freelancer."</p>
+                        <div class="flex items-center gap-4 mt-auto">
+                            <img src="https://ui-avatars.com/api/?name=Dimas+Anggara&background=f59e0b&color=fff" alt="Dimas Anggara" class="w-12 h-12 rounded-full" draggable="false">
+                            <div>
+                                <h4 class="font-bold text-slate-900">Dimas Anggara</h4>
+                                <p class="text-sm text-slate-500">Freelance Web Designer</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimoni 5 -->
+                    <div class="snap-center shrink-0 w-[85vw] md:w-[400px] bg-white p-8 rounded-3xl border border-slate-200 shadow-sm hover:shadow-xl transition duration-300 select-none">
+                        <div class="flex gap-1 text-yellow-400 mb-4 text-sm">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="text-slate-700 mb-6 italic">"Beli Starter Pack buat nulis artikel SEO. Kualitas promptnya beda jauh sama prompt gratisan di internet. Gemini jadi jarang halusinasi dan artikelnya langsung rank di Google!"</p>
+                        <div class="flex items-center gap-4 mt-auto">
+                            <img src="https://ui-avatars.com/api/?name=Anita+Kusuma&background=ec4899&color=fff" alt="Anita Kusuma" class="w-12 h-12 rounded-full" draggable="false">
+                            <div>
+                                <h4 class="font-bold text-slate-900">Anita Kusuma</h4>
+                                <p class="text-sm text-slate-500">SEO Content Writer</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                
+                <!-- Indikator Geser (Mobile Only) -->
+                <div class="flex justify-center gap-2 mt-4 md:hidden">
+                    <span class="w-2 h-2 rounded-full bg-brand-600"></span>
+                    <span class="w-2 h-2 rounded-full bg-slate-300"></span>
+                    <span class="w-2 h-2 rounded-full bg-slate-300"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing / Products -->
+    <section id="produk" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-slate-900">Pilih Bundle Anda</h2>
+                <p class="text-slate-600 mt-4">Investasi sekali, gunakan selamanya. Pilih paket yang sesuai kebutuhanmu.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+                
+               
+              <!-- Product 1 (AI Custom Game) -->
+                <div class="bg-white rounded-3xl p-8 border border-slate-200 shadow-sm hover:shadow-xl transition relative flex flex-col">
+                    <h3 class="text-xl font-bold text-slate-900">AI Custom Game</h3>
+                    <p class="text-slate-500 text-sm mt-2">Bikin web game interaktif dengan mudah</p>
+                    <div class="my-6">
+                        <span class="text-4xl font-extrabold">Rp 29k</span>
+                        <span class="text-slate-500 line-through ml-2">Rp 89k</span>
+                    </div>
+                    <ul class="space-y-4 mb-8 flex-1">
+                        <li class="flex items-center gap-3 text-slate-600"><i class="fa-solid fa-gamepad text-brand-500"></i> Prompt Canvas, Audio & Firebase</li>
+                        <li class="flex items-center gap-3 text-slate-600"><i class="fa-solid fa-rocket text-brand-500"></i> Tutorial Bimbingan Deploy Lengkap</li>
+                        <li class="flex items-center gap-3 text-slate-600"><i class="fa-brands fa-whatsapp text-brand-500"></i> Support di Grup WA Khusus</li>
+                        <li class="flex items-center gap-3 text-slate-600"><i class="fa-solid fa-mobile-screen-button text-brand-500"></i> Layout Game 100% Responsif</li>
+                    </ul>
+                    <button class="w-full py-3 rounded-xl font-bold border-2 border-brand-600 text-brand-600 hover:bg-brand-50 transition" onclick="buyProduct('AI Custom Game', '29.000')">Beli AI Game</button>
+                </div>
+
+               <!-- Product 2 (Popular: Gemini Pro 18 Bulan) -->
+                <div class="bg-slate-900 rounded-3xl p-8 border border-slate-800 shadow-2xl relative flex flex-col transform md:-translate-y-4">
+                    <div class="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-gradient-to-r from-brand-500 to-purple-500 text-white px-4 py-1 rounded-full text-sm font-bold shadow-lg">
+                        Paling Laris
+                    </div>
+                    <h3 class="text-xl font-bold text-white">Gemini Pro 18 Bulan</h3>
+                    <p class="text-slate-400 text-sm mt-2">Akses AI Supercharged & Storage Raksasa</p>
+                    <div class="my-6">
+                        <span class="text-4xl font-extrabold text-white">Rp 50k</span>
+                        <span class="text-slate-500 line-through ml-2">Rp 450k</span>
+                    </div>
+                    <ul class="space-y-4 mb-8 flex-1 text-slate-300">
+                        <li class="flex items-center gap-3"><i class="fa-solid fa-cloud text-brand-400"></i> Kapasitas 5TB Cloud Storage</li>
+                        <li class="flex items-center gap-3"><i class="fa-solid fa-microchip text-brand-400"></i> Nano Banana Pro & Omni Flash</li>
+                        <li class="flex items-center gap-3"><i class="fa-solid fa-video text-brand-400"></i> Video Generation dengan Veo 3</li>
+                        <li class="flex items-center gap-3"><i class="fa-solid fa-link text-brand-400"></i> Prepaid Redeem Link (No Card Required)</li>
+                    </ul>
+                    <button class="w-full py-3 rounded-xl font-bold bg-brand-600 hover:bg-brand-500 text-white transition shadow-lg shadow-brand-500/25" onclick="buyProduct('Gemini Pro 18 Bulan', '50.000')">Beli Gemini Pro</button>
+                </div>
+
+            <!-- Product 3 (Ultimate Master: Paket Hemat) -->
+                <div class="bg-white rounded-3xl p-8 border border-slate-200 shadow-sm hover:shadow-xl transition relative flex flex-col">
+                    <div class="absolute top-0 right-0 -mt-3 -mr-3 bg-green-500 text-white px-3 py-1 rounded-full text-xs font-bold shadow-md transform rotate-12">
+                        Super Hemat!
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900">Ultimate Master</h3>
+                    <p class="text-slate-500 text-sm mt-2">Bundle Spesial: Gemini + Chai AI Custom</p>
+                    <div class="my-6">
+                        <span class="text-4xl font-extrabold">Rp 70k</span>
+                        <span class="text-slate-500 line-through ml-2">Rp 250k</span>
+                    </div>
+                    <ul class="space-y-4 mb-8 flex-1">
+                        <li class="flex items-center gap-3 text-slate-600"><i class="fa-solid fa-layer-group text-green-500"></i> Akses Semua Fitur (Akun AI & Prompt)</li>
+                        <li class="flex items-center gap-3 text-slate-600"><i class="fa-solid fa-rocket text-green-500"></i> Bimbingan Deploy Sampai Online</li>
+                        <li class="flex items-center gap-3 text-slate-600"><i class="fa-brands fa-whatsapp text-green-500"></i> Masuk Grup WA Khusus (VIP Support)</li>
+                        <li class="flex items-center gap-3 text-slate-600"><i class="fa-solid fa-hand-holding-dollar text-green-500"></i> Harga Combo Jauh Lebih Murah</li>
+                    </ul>
+                    <button class="w-full py-3 rounded-xl font-bold border-2 border-brand-600 text-brand-600 hover:bg-brand-50 transition" onclick="buyProduct('Ultimate Master (Paket Hemat 70k)', '70.000')">Beli Paket Hemat</button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 border-t border-slate-800 py-10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-4">
+            <div class="flex items-center gap-2">
+                <i class="fa-solid fa-robot text-brand-500 text-xl"></i>
+                <span class="font-bold text-white">GeminiMaster</span>
+            </div>
+            <p class="text-slate-400 text-sm">© 2026 GeminiMaster. All rights reserved.</p>
+            <div class="flex gap-4">
+           <a href="https://wa.me/6282333166659?text=Halo%20Admin,%20saya%20mau%20tanya-tanya%20dulu%20tentang%20produk%20AI-nya%20boleh?" target="_blank" title="Mau tanya-tanya? Chat via WhatsApp!" class="text-slate-400 hover:text-green-500 hover:scale-110 transition-all inline-block">
+    <i class="fa-brands fa-whatsapp text-2xl"></i>
+</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Script Pembelian dengan SweetAlert2 -->
+    <script>
+        function buyProduct(planName, price) {
+            Swal.fire({
+                title: 'Konfirmasi Pembelian',
+                html: `Anda akan membeli bundle <b>${planName}</b> seharga <b>Rp ${price}</b>.<br><br>Lanjutkan ke WhatsApp untuk menyelesaikan pembayaran?`,
+                icon: 'info',
+                showCancelButton: true,
+                confirmButtonColor: '#2563eb', // brand-600
+                cancelButtonColor: '#64748b', // slate-500
+                confirmButtonText: '<i class="fa-brands fa-whatsapp"></i> Lanjut ke WA',
+                cancelButtonText: 'Batal',
+                reverseButtons: true
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    const phone = "6282333166659"; // Ganti dengan nomor WhatsApp Anda
+                    const message = encodeURIComponent(`Halo admin, saya tertarik untuk membeli Prompt Bundle: *${planName}* seharga Rp ${price}. Mohon info instruksi pembayarannya.`);
+                    const waUrl = `https://wa.me/${phone}?text=${message}`;
+                    
+                    window.open(waUrl, '_blank');
+                }
+            });
+        }
+    </script>
+
+    <!-- Script untuk Slider Testimoni Otomatis & Manual -->
+    <script>
+        const sliderTrack = document.getElementById('sliderTrack');
+        const prevBtn = document.getElementById('prevBtn');
+        const nextBtn = document.getElementById('nextBtn');
+        const scrollAmount = 424; // Lebar 1 card + gap
+        let autoScrollTimer;
+
+        // Fungsi Auto Scroll
+        function startAutoScroll() {
+            autoScrollTimer = setInterval(() => {
+                if (sliderTrack) {
+                    // Cek apakah slider sudah mencapai ujung kanan (toleransi 5px)
+                    if (sliderTrack.scrollLeft + sliderTrack.clientWidth >= sliderTrack.scrollWidth - 5) {
+                        // Kembali ke awal
+                        sliderTrack.scrollTo({ left: 0, behavior: 'smooth' });
+                    } else {
+                        // Geser ke kanan
+                        sliderTrack.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+                    }
+                }
+            }, 3000); // Geser setiap 3 detik
+        }
+
+        function stopAutoScroll() {
+            clearInterval(autoScrollTimer);
+        }
+
+        // Mulai auto scroll saat halaman dimuat
+        startAutoScroll();
+
+        // Hentikan auto scroll saat user berinteraksi
+        if (sliderTrack) {
+            sliderTrack.addEventListener('mouseenter', stopAutoScroll);
+            sliderTrack.addEventListener('mouseleave', startAutoScroll);
+            sliderTrack.addEventListener('touchstart', stopAutoScroll, {passive: true});
+            sliderTrack.addEventListener('touchend', startAutoScroll, {passive: true});
+        }
+
+        // Navigasi Manual Tombol Kanan
+        if (nextBtn) {
+            nextBtn.addEventListener('click', () => {
+                sliderTrack.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+                // Reset timer agar tidak bertabrakan saat ditekan manual
+                stopAutoScroll();
+                startAutoScroll();
+            });
+        }
+
+        // Navigasi Manual Tombol Kiri
+        if (prevBtn) {
+            prevBtn.addEventListener('click', () => {
+                sliderTrack.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
+                stopAutoScroll();
+                startAutoScroll();
+            });
+        }
+
+        // Fitur Drag/Geser Manual dengan Mouse di Desktop
+        let isDown = false;
+        let startX;
+        let scrollLeft;
+
+        if (sliderTrack) {
+            sliderTrack.addEventListener('mousedown', (e) => {
+                isDown = true;
+                sliderTrack.classList.add('active:cursor-grabbing');
+                startX = e.pageX - sliderTrack.offsetLeft;
+                scrollLeft = sliderTrack.scrollLeft;
+                stopAutoScroll(); // Stop auto scroll saat di-drag
+            });
+            
+            sliderTrack.addEventListener('mouseleave', () => {
+                isDown = false;
+                sliderTrack.classList.remove('active:cursor-grabbing');
+            });
+            
+            sliderTrack.addEventListener('mouseup', () => {
+                isDown = false;
+                sliderTrack.classList.remove('active:cursor-grabbing');
+                startAutoScroll(); // Mulai lagi setelah selesai drag
+            });
+            
+            sliderTrack.addEventListener('mousemove', (e) => {
+                if (!isDown) return;
+                e.preventDefault();
+                const x = e.pageX - sliderTrack.offsetLeft;
+                const walk = (x - startX) * 2; // Kecepatan scroll saat drag
+                sliderTrack.scrollLeft = scrollLeft - walk;
+            });
+        }
+    </script>
+</body>
+</html>
